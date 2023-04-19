@@ -40,7 +40,6 @@ $roles = $db->query("SELECT * FROM roles")->fetchAll(2);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register form</title>
 
-    <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -49,7 +48,7 @@ $roles = $db->query("SELECT * FROM roles")->fetchAll(2);
 <div class="form-container">
 
     <form action="" method="post">
-        <h3>register now</h3>
+        <h3 id="login">Register now</h3>
         <?php
         if(isset($error)){
             foreach($error as $error){

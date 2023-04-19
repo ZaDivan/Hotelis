@@ -37,7 +37,7 @@
         <section class = "buy">
             <h2>$<?php echo $item['price']?></h2>
             <div class = "amount">
-                <a href = "admin_page.php#">Buy</a>
+                <a href = "reservation.php">Reserv</a>
             </div>
         </section>
     </main>

@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
 <div class="form-container">
 
     <form action="" method="post">
-        <h3>login now</h3>
+        <h3 id="login">Login now</h3>
         <?php
         if(isset($error)){
             foreach($error as $error){
